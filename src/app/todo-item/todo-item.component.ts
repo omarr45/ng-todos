@@ -12,7 +12,7 @@ import { Todo } from '../todo';
       [class]="
         'rounded border p-3 shadow hover:bg-slate-100 ' +
         (this.todo.completed
-          ? 'bg-slate-200 line-through opacity-75 hover:bg-slate-200'
+          ? 'bg-slate-200 text-red-600 line-through opacity-75 hover:bg-slate-200'
           : '')
       "
     >
